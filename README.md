@@ -21,7 +21,7 @@ Raw data on reference pages is available in the following files:
 - `data/pages/page-content-en.json`: data for the reference pages in English
 - `data/pages/page-content-fr.json`: data for the reference pages in French
 
-The data was parsed and structured using the script `scripts/parse_data.py` to create the file `data/alloprof.csv` with the following columns:
+The data can be parsed and structured using the script `scripts/parse_data.py` to create the file `data/alloprof.csv` with the following columns:
 
 - `id` (str) : Id of the document
 - `url` (str) : URL of the document
@@ -36,6 +36,7 @@ The data was parsed and structured using the script `scripts/parse_data.py` to c
 - `possible` (str) : ";" separated list of possible documents ids this document may refer to. This list corresponds to every document of the same subject and grade. For files, this will always be empty to speed up reading and writing
 
 The `possible` column depends on arguments passed to the scripts to add related subjects, and lower and higher grade levels to the possible documents (see paper).
+Also note that the provided `alloprof.csv` file is stored with git lfs and can be pulled with `git lfs install && git lfs pull`.
 
 For images, a script to download them is available as `scripts/download_images.py`.
 
