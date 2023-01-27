@@ -1,0 +1,24 @@
+{
+  "chemistry": ["other", "science", "physics"],
+  "contemporary_world": ["other", "history"],
+  "english": ["other"],
+  "financial_ed": ["other"],
+  "french": ["other"],
+  "geography": ["other"],
+  "history": ["other", "contemporary_world"],
+  "math": ["other", "physics"],
+  "other": [
+    "chemistry",
+    "contemporary_world",
+    "english",
+    "financial_ed",
+    "french",
+    "geography",
+    "history",
+    "math",
+    "physics",
+    "science"
+  ],
+  "physics": ["other", "science", "math", "chemistry"],
+  "science": ["other", "chemistry", "physics"]
+}
