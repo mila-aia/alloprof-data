@@ -2,9 +2,7 @@
 
 This is the dataset refered to in our paper:
 
-ADD_PAPER
-
-ADD_ARXIV_LINK
+Alloprof: a new French question-answer education dataset and its use in an information retrieval case study (https://arxiv.org/abs/2302.07738)
 
 This dataset was provided by [AlloProf](https://www.alloprof.qc.ca/), an organisation in Quebec, Canada offering resources and a help forum curated by a large number of teachers to students on all subjects taught from in primary and secondary school.
 
@@ -45,5 +43,9 @@ If you have any questions, don't hesitate to mail us at antoine.lefebvre-brossar
 **Please cite our work as:**
 
 ```
-ADD_BIBTEX
+@inproceedings{LefebvreBrossard2023AlloprofAN,
+  title={Alloprof: a new French question-answer education dataset and its use in an information retrieval case study},
+  author={Antoine Lefebvre-Brossard and Stephane Gazaille and Michel C. Desmarais},
+  year={2023}
+}
 ```
