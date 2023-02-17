@@ -43,9 +43,14 @@ If you have any questions, don't hesitate to mail us at antoine.lefebvre-brossar
 **Please cite our work as:**
 
 ```
-@inproceedings{LefebvreBrossard2023AlloprofAN,
-  title={Alloprof: a new French question-answer education dataset and its use in an information retrieval case study},
-  author={Antoine Lefebvre-Brossard and Stephane Gazaille and Michel C. Desmarais},
-  year={2023}
+@misc{lef23,
+  doi = {10.48550/ARXIV.2302.07738},
+  url = {https://arxiv.org/abs/2302.07738},
+  author = {Lefebvre-Brossard, Antoine and Gazaille, Stephane and Desmarais, Michel C.},
+  keywords = {Computation and Language (cs.CL), Information Retrieval (cs.IR), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Alloprof: a new French question-answer education dataset and its use in an information retrieval case study},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }
 ```
